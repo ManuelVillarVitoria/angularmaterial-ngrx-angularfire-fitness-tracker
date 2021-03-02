@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HammerModule} from '@angular/platform-browser';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -32,7 +33,8 @@ import { AppRoutingModule } from './app-routing.module';
     MaterialModule,
     HammerModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
