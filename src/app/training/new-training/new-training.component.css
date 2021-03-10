@@ -1,0 +1,10 @@
+.new-training {
+    padding: 30px;
+}
+
+@media (max-width: 767px) {
+    mat-card-title {
+        font-size: 20px;
+     
+    }
+}
